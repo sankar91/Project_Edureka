@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [BVC]" guice-stage="DEVELOPMENT">
+  <parameter name="author" value="Guru99"/>
+  <parameter name="searchkey" value="Testng"/>
+  <test thread-count="5" name="SmokeTestFF(failed)">
+    <parameter name="searchkey" value="U.K"/>
+    <classes>
+      <class name="testCases.HybridExecuteTest">
+        <methods>
+          <include name="testLogin" invocation-numbers="36 37 38"/>
+        </methods>
+      </class> <!-- testCases.HybridExecuteTest -->
+    </classes>
+  </test> <!-- SmokeTestFF(failed) -->
+</suite> <!-- Failed suite [BVC] -->

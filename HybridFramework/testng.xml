@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="GoibioHybrid" verbose="1">
+    <parameter name="Sankar" value="Edureka" />
+    <parameter name="searchkey" value="Testng" />
+    <test name="SmokeTest">
+        <parameter name="searchkey" value="U.K" />
+        <classes>
+            <class name= "testCases.HybridExecuteTest"/>
+        </classes>
+    </test>
+</suite>
